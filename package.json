@@ -4,11 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "es6":"./node_modules/.bin/http-server -c1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.66",
+    "@types/node": "^7.0.31",
+    "http-server": "^0.10.0",
     "typescript": "2.3.4"
+  },
+  "dependencies": {
+    "lodash": "4.17.4"
   }
 }
